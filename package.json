@@ -1,0 +1,37 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "without bootstrap",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arman-howk/Profile.git"
+  },
+  "author": "arman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arman-howk/Profile/issues"
+  },
+  "homepage": "https://github.com/arman-howk/Profile#readme",
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "fibers": "^3.1.1",
+    "grunt": "^1.0.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^2.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.0.2",
+    "load-grunt-tasks": "^4.0.0",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  }
+}
