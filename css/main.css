@@ -5413,7 +5413,8 @@ body {
     transform: translate(4px, 2px); }
 
 #header {
-  height: 80vh; }
+  height: 80vh;
+  position: relative; }
 
 .my-name {
   font-family: "Playfair Display SC", serif;
@@ -5422,6 +5423,16 @@ body {
 .my-lastname {
   font-family: "Playfair Display SC", serif;
   font-size: 3rem; }
+
+.video {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 0; }
+
+profile {
+  position: absolute;
+  z-index: 100; }
 
 .about-header {
   font-family: "Playfair Display SC", serif;

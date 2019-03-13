@@ -23,6 +23,7 @@ body{
 //#################################  header  ##########################################
 #header {
     height: 80vh;
+    position: relative;
 }
 
 .my-name{
@@ -35,6 +36,17 @@ body{
     font-size: 3rem;
 }
 
+.video{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+
+}
+ profile{
+     position: absolute;
+     z-index: 100;
+ }
 
 //#################################   about  ###########################################
 .about-header{
