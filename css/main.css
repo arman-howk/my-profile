@@ -5404,11 +5404,11 @@ a.text-footer:hover, a.text-footer:focus {
 .invisible {
   visibility: hidden !important; }
 
-.header {
-  height: 100vh; }
+.heder {
+  height: 80vh; }
 
 #conHeader {
-  height: 100vh; }
+  height: 80vh; }
 
 .profile-img {
   width: 70%;
@@ -5416,13 +5416,11 @@ a.text-footer:hover, a.text-footer:focus {
   -webkit-clip-path: polygon(100% 0, 100% 72%, 1% 100%, 1% 100%, 0 0);
   clip-path: polygon(100% 0, 100% 72%, 1% 100%, 1% 100%, 0 0); }
 
-link {
+.link {
   overflow: hidden; }
 
-card {
-  overflow: hidden; }
-
-card-img {
-  width: 100%; }
+.card {
+  overflow: hidden;
+  border-radius: 0; }
 
 /*# sourceMappingURL=main.css.map */

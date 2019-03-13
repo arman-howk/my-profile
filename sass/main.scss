@@ -4,42 +4,35 @@
 @import "abstracts/mixins";
 
 
-
-
-.header {
-    height: 100vh;
+.heder {
+    height: 80vh;
 }
 
 #conHeader {
-    height: 100vh;
+    height: 80vh;
 }
 
 .profile-img {
     width: 70%;
     margin-left: 1em;
     -webkit-clip-path: polygon(100% 0, 100% 72%, 1% 100%, 1% 100%, 0 0);
-    clip-path: polygon(100% 0, 100% 72%, 1% 100%, 1% 100%, 0 0);
-    
-    
+    clip-path: polygon(100% 0, 100% 72%, 1% 100%, 1% 100%, 0 0); 
 }
 
-link {
+.link {
     overflow: hidden;
 }
 
-process-img {
-    
-
-
-
-}
-
-card{
+.card{
     overflow: hidden;
-
+    border-radius: 0;
+    
 }
 
 
-card-img{
-    width: 100%;
-}
+
+
+
+
+
+ 
