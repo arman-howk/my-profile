@@ -3,30 +3,124 @@
 @import "abstracts/functions";
 @import "abstracts/mixins";
 
+$font-header: 'Playfair Display SC', serif;
+$font-text: 'Chivo', sans-serif;
 
-.heder {
+body{
+    font-family: $font-text
+}
+
+//################################  nav  ##############################################
+.nav-link {
+    margin: 1rem;
+
+    &:hover {
+        transform: translate(4px,2px);
+    }
+}
+
+
+//#################################  header  ##########################################
+#header {
     height: 80vh;
 }
 
-#conHeader {
-    height: 80vh;
+.my-name{
+    font-family: $font-header;
+    font-size: 15rem;
 }
 
-.profile-img {
+.my-lastname{
+    font-family: $font-header;
+    font-size: 3rem;
+}
+
+
+//#################################   about  ###########################################
+.about-header{
+    font-family:  $font-header;
+    font-size: 2rem;
+}
+
+a.about-btn {
+    border-radius: 0;
+
+}
+
+.about-img {
     width: 70%;
     margin-left: 1em;
     -webkit-clip-path: polygon(100% 0, 100% 72%, 1% 100%, 1% 100%, 0 0);
-    clip-path: polygon(100% 0, 100% 72%, 1% 100%, 1% 100%, 0 0); 
+    clip-path: polygon(100% 0, 100% 72%, 1% 100%, 1% 100%, 0 0);
 }
 
-.link {
-    overflow: hidden;
+//##################################  process  ###############################################
+.process-title-header{
+    font-family: $font-header;
+    font-size: 2rem;
+}
+.process-card-title{
+    font-family: $font-header;
+    font-size: 1rem;
 }
 
-.card{
-    overflow: hidden;
+
+
+
+//####################################   education   ##########################################
+.education-card-title{
+    font-family: $font-header;
+    font-size: 2rem;
+}
+
+.education-card-sub-title{
+    font-family: $font-text;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+//####################################   testemonial   ##########################################
+
+
+
+
+
+//####################################   contact   ##############################################
+.contact-form-btn{
     border-radius: 0;
-    
+}
+
+.contact-form-header{
+    font-family: $font-header;
+    font-size: 1.5rem;
+}
+
+.h-address{
+    font-family: $font-header;
+    font-size: 1.5rem;
+}
+
+.h-phone{
+    font-family: $font-header;
+    font-size: 1.5rem;
+}
+
+.h-web{
+        font-family: $font-header;
+        font-size: 1.5rem;
+}
+
+//####################################   footer   ###############################################
+.footer-icons {
+    i {
+        &:hover {
+            color: white;
+        }
+    }
 }
 
 
@@ -34,5 +128,3 @@
 
 
 
-
- 

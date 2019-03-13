@@ -5404,23 +5404,74 @@ a.text-footer:hover, a.text-footer:focus {
 .invisible {
   visibility: hidden !important; }
 
-.heder {
+body {
+  font-family: "Chivo", sans-serif; }
+
+.nav-link {
+  margin: 1rem; }
+  .nav-link:hover {
+    transform: translate(4px, 2px); }
+
+#header {
   height: 80vh; }
 
-#conHeader {
-  height: 80vh; }
+.my-name {
+  font-family: "Playfair Display SC", serif;
+  font-size: 15rem; }
 
-.profile-img {
+.my-lastname {
+  font-family: "Playfair Display SC", serif;
+  font-size: 3rem; }
+
+.about-header {
+  font-family: "Playfair Display SC", serif;
+  font-size: 2rem; }
+
+a.about-btn {
+  border-radius: 0; }
+
+.about-img {
   width: 70%;
   margin-left: 1em;
   -webkit-clip-path: polygon(100% 0, 100% 72%, 1% 100%, 1% 100%, 0 0);
   clip-path: polygon(100% 0, 100% 72%, 1% 100%, 1% 100%, 0 0); }
 
-.link {
-  overflow: hidden; }
+.process-title-header {
+  font-family: "Playfair Display SC", serif;
+  font-size: 2rem; }
 
-.card {
-  overflow: hidden;
+.process-card-title {
+  font-family: "Playfair Display SC", serif;
+  font-size: 1rem; }
+
+.education-card-title {
+  font-family: "Playfair Display SC", serif;
+  font-size: 2rem; }
+
+.education-card-sub-title {
+  font-family: "Chivo", sans-serif;
+  font-size: 1.5rem; }
+
+.contact-form-btn {
   border-radius: 0; }
+
+.contact-form-header {
+  font-family: "Playfair Display SC", serif;
+  font-size: 1.5rem; }
+
+.h-address {
+  font-family: "Playfair Display SC", serif;
+  font-size: 1.5rem; }
+
+.h-phone {
+  font-family: "Playfair Display SC", serif;
+  font-size: 1.5rem; }
+
+.h-web {
+  font-family: "Playfair Display SC", serif;
+  font-size: 1.5rem; }
+
+.footer-icons i:hover {
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */
