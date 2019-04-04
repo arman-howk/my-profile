@@ -3,7 +3,7 @@
 @import "abstracts/functions";
 @import "abstracts/mixins";
 
-$font-header: 'Playfair Display SC', serif;
+$font-header: 'Baloo Chettan', cursive;
 $font-text: 'Chivo', sans-serif;
 
 body{
@@ -54,6 +54,10 @@ body{
     &:hover {
         transform: translate(4px,2px);
     }
+}
+
+.logo{
+
 }
 
 
@@ -116,6 +120,9 @@ a.about-btn {
     font-size: 1rem;
 }
 
+.process-container{
+    min-height: 40rem;
+}
 
 
 
@@ -130,13 +137,23 @@ a.about-btn {
     font-size: 1.5rem;
 }
 
+.education-card{
+    min-height: 60rem;
+}
+
 
 
 
 
 
 //####################################   testemonial   ##########################################
+.t-container{
+    min-height: 23rem;
+}
 
+.t-text{
+    font-size: 2rem;
+}
 
 
 
